@@ -1,0 +1,120 @@
+# =========================
+# OS / Editor
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+pip-wheel-metadata/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# =========================
+# Environments
+# =========================
+.venv/
+venv/
+env/
+ENV/
+conda-env/
+*.conda
+*.env
+
+# =========================
+# Logs / outputs
+# =========================
+logs/
+log/
+*.log
+
+# checkpoints / runs
+checkpoints/
+ckpt/
+runs/
+wandb/
+tensorboard/
+tb/
+
+# =========================
+# Data (IMPORTANT)
+# =========================
+# raw dataset
+Data/
+data/
+label/
+labels/
+
+# processed outputs
+processed/
+processed_final/
+processed_* /
+outputs/
+out/
+results/
+figures/
+plots/
+
+# numpy / torch caches
+*.npz
+*.npy
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# =========================
+# MNE / cache
+# =========================
+mne_cache/
+*.fif
+*.fif.gz
+
+# =========================
+# Large EEG files (BCI Competition)
+# =========================
+*.gdf
+*.mat
+*.edf
+*.bdf
+*.vhdr
+*.vmrk
+*.eeg
+
+# =========================
+# Secrets
+# =========================
+*.key
+*.pem
+*.p12
+*.pfx
+.env
+secrets.json
+config_local.json
+
+# data
+*.gdf
+*.npz
+*.mat
+bcidatasetIV2a-master/
+*.zip
